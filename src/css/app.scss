@@ -1,0 +1,21 @@
+// app global css in SCSS form
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F9F9F9;
+
+}
+.q-header {
+  padding: 15px;
+  padding-top: 0;
+  background: rgb(162,91,228);
+  background: $main-gradient;
+
+  border-radius: 0px 0px 20px 20px;
+  .q-toolbar {
+    padding: 0;
+  }
+}
+
+.q-layout > .q-page-container{
+  height: 100vh;
+}

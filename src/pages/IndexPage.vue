@@ -48,7 +48,7 @@ export default defineComponent({
     margin: 10px;
     width: 180px;
     height: 130px;
-    background-color: grey;
+    background-color: white;
     border-radius: 20px;
     display: flex;
     flex-direction: column-reverse;
@@ -57,10 +57,12 @@ export default defineComponent({
 
     img {
       width: 50px;
+      opacity: 50%;
     }
     h4 {
       font-size: 12px;
       line-height: 16px;
+      color: #767676;
     }
   }
 }

@@ -2,7 +2,11 @@
   <div class="header-text">
     <h1>{{text1}}</h1>
     <h2>{{text2}}</h2>
+    <div class="emergency-text">
     <p>{{text3}}</p>
+    <a href=""><img scr="..//assets/warning.png" /></a>
+    </div>
+    
 
   </div>
 </template>

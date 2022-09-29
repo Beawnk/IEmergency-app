@@ -6,23 +6,23 @@
     </li>
     <li class="complaints">
       <h4>Violência doméstica</h4>
-      <img src="..//assets/danger.png" />
+      <img src="..//assets/femenine.png" />
     </li>
     <li class="complaints">
-      <h4>Aglomeração durante a pandemia</h4>
-      <img src="..//assets/danger.png" />
+      <h4>Acidente de trânsito</h4>
+      <img src="..//assets/accident.png" />
     </li>
     <li class="complaints">
       <h4>Incêndio</h4>
       <img src="..//assets/danger.png" />
     </li>
     <li class="complaints">
-      <h4>Aglomeração durante a pandemia</h4>
-      <img src="..//assets/danger.png" />
+      <h4>Assalto</h4>
+      <img src="..//assets/robber.png" />
     </li>
     <li class="complaints">
-      <h4>Aglomeração durante a pandemia</h4>
-      <img src="..//assets/danger.png" />
+      <h4>Árvore caída</h4>
+      <img src="..//assets/disaster.png" />
     </li>
   </ul>
 </template>
@@ -52,8 +52,9 @@ export default defineComponent({
     border-radius: 20px;
     display: flex;
     flex-direction: column-reverse;
-    justify-content: flex-end;
+    justify-content: space-around;
     padding: 10px;
+    box-shadow: 0px 1px 10px 2px #00000014;
 
     img {
       width: 50px;
